@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- You can define a common default if needed -->
-    <default sync-j="8" />
+    <remote name="gitlab_qnx" fetch="https://gitlab.com/qnx/" />
+
+    <default remote="gitlab_qnx" revision="main" sync-j="8" />
 
     <!-- Include manifests for each remote -->
     <include name="Projects.xml" />

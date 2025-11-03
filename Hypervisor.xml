@@ -1,123 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Define the GitLab remote -->
-    <remote name="hypervisor"
-            fetch="https://gitlab.com/qnx/hypervisor/" />
-
-    <!-- Set default options -->
-    <default remote="hypervisor"
-             revision="main"
-             sync-j="4" />
-
     <!-- AOSP -->
 
-    <project name="aosp/device_google_cuttlefish"
+    <project name="hypervisor/aosp/device_google_cuttlefish"
              path="hypervisor/aosp/device_google_cuttlefish"
              revision="android-14.0.0_r2-qnx" />
 
-    <project name="aosp/device_google_trout"
+    <project name="hypervisor/aosp/device_google_trout"
              path="hypervisor/aosp/device_google_trout" 
              revision="android13-qpr1-release-qnx"/>
 
-    <project name="aosp/device_qnx_warbler"
+    <project name="hypervisor/aosp/device_qnx_warbler"
              path="hypervisor/aosp/device_qnx_warbler" 
              revision="android-14.0.0_r2-qnx"/>
 
-    <project name="aosp/device_qnx_warbler_cuttlefish"
+    <project name="hypervisor/aosp/device_qnx_warbler_cuttlefish"
              path="hypervisor/aosp/device_qnx_warbler_cuttlefish" 
              revision="android-14.0.0_r2-qnx"/>
 
-    <project name="aosp/device_qnx_warbler_ext"
+    <project name="hypervisor/aosp/device_qnx_warbler_ext"
              path="hypervisor/aosp/device_qnx_warbler_ext" 
              revision="android13-qpr1-release-qnx"/>
 
-    <project name="aosp/kernel_common"
+    <project name="hypervisor/aosp/kernel_common"
              path="hypervisor/aosp/kernel_common" 
              revision="android12-5.10-2023-03-qnx"/>
 
-    <project name="aosp/kernel_common-modules_virtual-device"
+    <project name="hypervisor/aosp/kernel_common-modules_virtual-device"
              path="hypervisor/aosp/kernel_common-modules_virtual-device" 
              revision="trout-android12-5.10-qnx"/>
 
-    <project name="aosp/platform_external_v4l2_codec2"
+    <project name="hypervisor/aosp/platform_external_v4l2_codec2"
              path="hypervisor/aosp/platform_external_v4l2_codec2" 
              revision="android-14.0.0_r2-qnx"/>
 
-    <project name="aosp/platform_frameworks_av"
+    <project name="hypervisor/aosp/platform_frameworks_av"
              path="hypervisor/aosp/platform_frameworks_av" 
              revision="android-14.0.0_r2-qnx"/>
 
-    <project name="aosp/platform_frameworks_native"
+    <project name="hypervisor/aosp/platform_frameworks_native"
              path="hypervisor/aosp/platform_frameworks_native" 
              revision="android13-qpr1-release-qnx"/>
 
-    <project name="aosp/platform_hardware_google_camera"
+    <project name="hypervisor/aosp/platform_hardware_google_camera"
              path="hypervisor/aosp/platform_hardware_google_camera" 
              revision="android-14.0.0_r50-qnx"/>
 
-    <project name="aosp/platform_hardware_interfaces"
+    <project name="hypervisor/aosp/platform_hardware_interfaces"
              path="hypervisor/aosp/platform_hardware_interfaces" 
              revision="android-14.0.0_r50-qnx"/>
 
-    <project name="aosp/platform_hardware_libhardware"
+    <project name="hypervisor/aosp/platform_hardware_libhardware"
              path="hypervisor/aosp/platform_hardware_libhardware" 
              revision="android-14.0.0_r50-qnx"/>
 
-    <project name="aosp/platform_packages_services_Car"
+    <project name="hypervisor/aosp/platform_packages_services_Car"
              path="hypervisor/aosp/platform_packages_services_Car" 
              revision="android-14.0.0_r2-qnx"/>
 
-    <project name="aosp/platform_system_sepolicy"
+    <project name="hypervisor/aosp/platform_system_sepolicy"
              path="hypervisor/aosp/platform_system_sepolicy" 
              revision="android-14.0.0_r2-qnx"/>
 
     <!-- QNX Hypervisor 8.0 Specific -->
-    <project name="qnx-8.0-hypervisor-specific-items/working-with-fdts/fdt-examples"
+    <project name="hypervisor/qnx-8.0-hypervisor-specific-items/working-with-fdts/fdt-examples"
              path="hypervisor/qnx-8.0-hypervisor-specific-items/working-with-fdts/fdt-examples" />
 
-    <project name="qnx-8.0-hypervisor-specific-items/working-with-time/time"
+    <project name="hypervisor/qnx-8.0-hypervisor-specific-items/working-with-time/time"
              path="hypervisor/qnx-8.0-hypervisor-specific-items/working-with-time/time" />
 
     <!-- Tools for QNX Hypervisor -->
-    <project name="tools-for-qnx-hypervisor/gathering-information-about-a-virtual-machine"
+    <project name="hypervisor/tools-for-qnx-hypervisor/gathering-information-about-a-virtual-machine"
              path="hypervisor/tools-for-qnx-hypervisor/gathering-information-about-a-virtual-machine" />
 
-    <project name="tools-for-qnx-hypervisor/parse_trace"
+    <project name="hypervisor/tools-for-qnx-hypervisor/parse_trace"
              path="hypervisor/tools-for-qnx-hypervisor/parse_trace" />
 
-    <project name="tools-for-qnx-hypervisor/perfetto"
+    <project name="hypervisor/tools-for-qnx-hypervisor/perfetto"
              path="hypervisor/tools-for-qnx-hypervisor/perfetto" />
 
-    <project name="tools-for-qnx-hypervisor/working-with-hardware"
+    <project name="hypervisor/tools-for-qnx-hypervisor/working-with-hardware"
              path="hypervisor/tools-for-qnx-hypervisor/working-with-hardware" />
 
     <!-- working-with-guests -->
-    <project name="working-with-guests/linux"
+    <project name="hypervisor/working-with-guests/linux"
              path="hypervisor/working-with-guests/linux" />
 
     <project name="working-with-guests/shared-memory-device-example-for-linux-vdev-shmem"
              path="hypervisor/working-with-guests/shared-memory-device-example-for-linux-vdev-shmem" />
 
     <!-- Yocto -->
-    <project name="yocto/build"
+    <project name="hypervisor/yocto/build"
              path="hypervisor/yocto/build" />
 
-    <project name="yocto/build-config"
+    <project name="hypervisor/yocto/build-config"
              path="hypervisor/yocto/build-config"
              revision="mickledore"/>
 
-    <project name="yocto/manifest"
+    <project name="hypervisor/yocto/manifest"
              path="hypervisor/yocto/manifest" />
 
-    <project name="yocto/meta-qnx"
+    <project name="hypervisor/yocto/meta-qnx"
              path="hypervisor/yocto/meta-qnx" 
              revision="mickledore"/>
 
-    <project name="yocto/poky"
+    <project name="hypervisor/yocto/poky"
              path="hypervisor/yocto/poky" 
              revision="scarthgap-dc4827b3-qnx"/>
 
     <!-- Virtual Device Development -->
-    <project name="virtual-device-developers-guide"
+    <project name="hypervisor/virtual-device-developers-guide"
              path="hypervisor/virtual-device-developers-guide" />
 </manifest>

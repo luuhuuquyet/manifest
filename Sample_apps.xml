@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Define the GitLab remote -->
-    <remote name="Sample_apps"
-            fetch="https://gitlab.com/qnx/sample-apps/" />
-
-    <!-- Set default options -->
-    <default remote="Sample_apps"
-             revision="main"
-             sync-j="4" />
-
-    <project name="gles2-maze"
+    <project name="sample-apps/gles2-maze"
              path="sample-apps/gles2-maze" />
 
-    <project name="vkcube"
+    <project name="sample-apps/vkcube"
              path="sample-apps/vkcube" />
 
 </manifest>
