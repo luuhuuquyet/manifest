@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- You can define a common default if needed -->
+    <default sync-j="8" />
+
+    <!-- Include manifests for each remote -->
+    <include name="Projects.xml" />
+    <include name="Hypervisor.xml" />
+    <include name="Sample_apps.xml" />
+    
+</manifest>

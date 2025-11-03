@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Define the GitLab remote -->
+    <remote name="projects"
+            fetch="https://gitlab.com/qnx/projects/camera-projects/" />
+
+    <!-- Set default options -->
+    <default remote="projects"
+             revision="main"
+             sync-j="4" />
+
+    <!-- Applications -->
+    <project name="applications/camera-dump-frame"
+             path="projects/camera-projects/applications/camera-dump-frame" />
+
+    <project name="applications/camera-dump-frame-no-screen"
+             path="projects/camera-projects/applications/camera-dump-frame-no-screen" />
+
+    <project name="applications/camera-list"
+             path="projects/camera-projects/applications/camera-list" />
+
+    <project name="applications/camera-manual-exposure"
+             path="projects/camera-projects/applications/camera-manual-exposure" />
+
+    <project name="applications/camera_example1_callback"
+             path="projects/camera-projects/applications/camera_example1_callback" />
+
+    <project name="applications/camera_example2_events"
+             path="projects/camera-projects/applications/camera_example2_events" />
+
+    <project name="applications/camera_example3_viewfinder"
+             path="projects/camera-projects/applications/camera_example3_viewfinder" />
+
+    <project name="applications/camera_example4_record"
+             path="projects/camera-projects/applications/camera_example4_record" />
+
+    <project name="applications/camera_example5_video_group"
+             path="projects/camera-projects/applications/camera_example5_video_group" />
+
+    <project name="applications/camera_example6_egl_viewfinder"
+             path="projects/camera-projects/applications/camera_example6_egl_viewfinder" />
+
+    <project name="applications/rpi-isp-tuning-example"
+             path="projects/camera-projects/applications/rpi-isp-tuning-example" />
+
+    <project name="applications/rpi4-debayer-example"
+             path="projects/camera-projects/applications/rpi4-debayer-example" />
+
+    <!-- RPi Camera driver -->
+    <project name="camera-projects/rpi-camera/imx708"
+             path="projects/camera-projects/camera-projects/rpi-camera/imx708" />
+
+    <project name="camera-projects/rpi-camera/log_handler"
+             path="projects/camera-projects/camera-projects/rpi-camera/log_handler" />
+
+    <project name="camera-projects/rpi-camera/mmal"
+             path="projects/camera-projects/camera-projects/rpi-camera/mmal" />
+
+    <project name="camera-projects/rpi-camera/platform_broadcom"
+             path="projects/camera-projects/camera-projects/rpi-camera/platform_broadcom" />
+
+    <project name="camera-projects/rpi-camera/rpi_mbox_interface"
+             path="projects/camera-projects/camera-projects/rpi-camera/rpi_mbox_interface" />
+
+    <project name="camera-projects/rpi-camera/v_isp"
+             path="projects/camera-projects/camera-projects/rpi-camera/v_isp" />
+
+    <project name="camera-projects/rpi-camera/vchiq"
+             path="projects/camera-projects/camera-projects/rpi-camera/vchiq" />
+
+    <project name="camera-projects/rpi-camera/vchiq_interface"
+             path="projects/camera-projects/camera-projects/rpi-camera/vchiq_interface" />
+
+    <project name="camera-projects/rpi-camera/vcsm"
+             path="projects/camera-projects/camera-projects/rpi-camera/vcsm" />
+
+    <project name="camera-projects/rpi-camera/vcsm_interface"
+             path="projects/camera-projects/camera-projects/rpi-camera/vcsm_interface" />
+</manifest>
