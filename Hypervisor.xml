@@ -86,7 +86,7 @@
     <project name="hypervisor/working-with-guests/linux"
              path="hypervisor/working-with-guests/linux" />
 
-    <project name="working-with-guests/shared-memory-device-example-for-linux-vdev-shmem"
+    <project name="hypervisor/working-with-guests/shared-memory-device-example-for-linux-vdev-shmem"
              path="hypervisor/working-with-guests/shared-memory-device-example-for-linux-vdev-shmem" />
 
     <!-- Yocto -->
