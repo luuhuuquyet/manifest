@@ -4,6 +4,7 @@
              path="sample-apps/gles2-maze" />
 
     <project name="sample-apps/vkcube"
-             path="sample-apps/vkcube" />
+             path="sample-apps/vkcube" 
+             revision="master"/>
 
 </manifest>

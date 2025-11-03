@@ -38,33 +38,33 @@
              path="projects/camera-projects/applications/rpi4-debayer-example" />
 
     <!-- RPi Camera driver -->
-    <project name="projects/camera-projects/camera-projects/rpi-camera/imx708"
-             path="projects/camera-projects/camera-projects/rpi-camera/imx708" />
+    <project name="projects/camera-projects/rpi-camera/imx708"
+             path="projects/camera-projects/rpi-camera/imx708" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/log_handler"
-             path="projects/camera-projects/camera-projects/rpi-camera/log_handler" />
+    <project name="projects/camera-projects/rpi-camera/log_handler"
+             path="projects/camera-projects/rpi-camera/log_handler" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/mmal"
-             path="projects/camera-projects/camera-projects/rpi-camera/mmal" />
+    <project name="projects/camera-projects/rpi-camera/mmal"
+             path="projects/camera-projects/rpi-camera/mmal" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/platform_broadcom"
-             path="projects/camera-projects/camera-projects/rpi-camera/platform_broadcom" />
+    <project name="projects/camera-projects/rpi-camera/platform_broadcom"
+             path="projects/camera-projects/rpi-camera/platform_broadcom" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/rpi_mbox_interface"
-             path="projects/camera-projects/camera-projects/rpi-camera/rpi_mbox_interface" />
+    <project name="projects/camera-projects/rpi-camera/rpi_mbox_interface"
+             path="projects/camera-projects/rpi-camera/rpi_mbox_interface" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/v_isp"
-             path="projects/camera-projects/camera-projects/rpi-camera/v_isp" />
+    <project name="projects/camera-projects/rpi-camera/v_isp"
+             path="projects/camera-projects/rpi-camera/v_isp" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/vchiq"
-             path="projects/camera-projects/camera-projects/rpi-camera/vchiq" />
+    <project name="projects/camera-projects/rpi-camera/vchiq"
+             path="projects/camera-projects/rpi-camera/vchiq" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/vchiq_interface"
-             path="projects/camera-projects/camera-projects/rpi-camera/vchiq_interface" />
+    <project name="projects/camera-projects/rpi-camera/vchiq_interface"
+             path="projects/camera-projects/rpi-camera/vchiq_interface" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/vcsm"
-             path="projects/camera-projects/camera-projects/rpi-camera/vcsm" />
+    <project name="projects/camera-projects/rpi-camera/vcsm"
+             path="projects/camera-projects/rpi-camera/vcsm" />
 
-    <project name="projects/camera-projects/camera-projects/rpi-camera/vcsm_interface"
-             path="projects/camera-projects/camera-projects/rpi-camera/vcsm_interface" />
+    <project name="projects/camera-projects/rpi-camera/vcsm_interface"
+             path="projects/camera-projects/rpi-camera/vcsm_interface" />
 </manifest>
